@@ -48,7 +48,7 @@
     print("{:>16s} : {:<.4f} [M]".format("#Params", num_parameters))
 ```
 ## Acknowledgement
-this coode is bulit on [ART](https://github.com/gladzhang/ART) codebase. We than the authors for sharing the codes
+This coode is bulit on [ART](https://github.com/gladzhang/ART) codebase. We thank the authors for sharing the codes
 
 
 ## License
