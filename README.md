@@ -47,6 +47,9 @@
     num_parameters = num_parameters / 10 ** 6
     print("{:>16s} : {:<.4f} [M]".format("#Params", num_parameters))
 ```
+## Acknowledgement
+this coode is bulit on [ART](https://github.com/gladzhang/ART) codebase. We than the authors for sharing the codes
 
-## License and Acknowledgement
+
+## License
 This code repository is release under [MIT License](LICENSE). 
