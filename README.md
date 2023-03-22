@@ -3,13 +3,15 @@
 ## How to test the our model?
 
 1. `git clone https://github.com/UESTCIPLAB/ARFT_for_NTIRE2023_Image_Super_Resolution.git`
-2. Select the model you would like to test from [`run.sh`](./run.sh)
+2.   Pre-trained model : [Google Spreadsheet](https://drive.google.com/file/d/1fUDMXzHOornW4nDIxwAZbz3MynVBIKZP/view?usp=share_link)
+3.   result : [Google Spreadsheet](https://drive.google.com/file/d/1bW3FZLISpv10XxxAi1iAvx2ffWP8sPQG/view?usp=share_link)
+4. Select the model you would like to test from [`run.sh`](./run.sh)
     ```bash
     CUDA_VISIBLE_DEVICES=0 python test_demo.py --data_dir [path to your data dir] --save_dir [path to your save dir] --model_id 5
     ```
 
 ## How to add your model to this baseline?
-1. Register your team in the [Google Spreadsheet](https://drive.google.com/file/d/1fUDMXzHOornW4nDIxwAZbz3MynVBIKZP/view?usp=share_link) and get our model file.
+1. Register your team in the Google Spreadsheet and get our model file.
 2. Put your the code of your model in `./models/[Your_Team_ID]_[Your_Model_Name].py`
    - Please add **only one** file in the folder `./models`. **Please do not add other submodules**.
    - Please zero pad [Your_Team_ID] into two digits: e.g. 00, 01, 02 
@@ -48,7 +50,7 @@
     print("{:>16s} : {:<.4f} [M]".format("#Params", num_parameters))
 ```
 ## Acknowledgement
-This coode is bulit on [ART](https://github.com/gladzhang/ART) codebase. We thank the authors for sharing the codes
+This code is bulit on [ART](https://github.com/gladzhang/ART) codebase. We thank the authors for sharing the codes
 
 
 ## License
