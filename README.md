@@ -1,17 +1,15 @@
 # [NTIRE 2023 Challenge on Image Super-Resolution (x4)](https://cvlai.net/ntire/2023/) @ [CVPR 2023](https://cvpr2023.thecvf.com/)
 
-## How to test the baseline model?
+## How to test the our model?
 
-1. `git clone https://github.com/zhengchen1999/NTIRE2023_ImageSR_x4.git`
+1. `git clone https://github.com/UESTCIPLAB/ARFT_for_NTIRE2023_Image_Super_Resolution.git`
 2. Select the model you would like to test from [`run.sh`](./run.sh)
     ```bash
-    CUDA_VISIBLE_DEVICES=0 python test_demo.py --data_dir [path to your data dir] --save_dir [path to your save dir] --model_id 0
+    CUDA_VISIBLE_DEVICES=0 python test_demo.py --data_dir [path to your data dir] --save_dir [path to your save dir] --model_id 5
     ```
-    - Be sure the change the directories `--data_dir` and `--save_dir`.
-    - We provide three baselines (team00): RFDN (default), SwinIR, and CAT. The code and pretrained models of the three models are provided. Three baselines are all test normally with `run.sh`.
 
 ## How to add your model to this baseline?
-1. Register your team in the [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1P13yRO-r3bNsB7RdNr5xjPEVPnyLFjBgz8ktuPl9AME/edit?usp=sharing) and get your team ID.
+1. Register your team in the [Google Spreadsheet](https://drive.google.com/file/d/1fUDMXzHOornW4nDIxwAZbz3MynVBIKZP/view?usp=share_link) and get our model file.
 2. Put your the code of your model in `./models/[Your_Team_ID]_[Your_Model_Name].py`
    - Please add **only one** file in the folder `./models`. **Please do not add other submodules**.
    - Please zero pad [Your_Team_ID] into two digits: e.g. 00, 01, 02 
