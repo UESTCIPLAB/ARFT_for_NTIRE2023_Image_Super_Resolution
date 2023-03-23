@@ -1,5 +1,8 @@
 # [NTIRE 2023 Challenge on Image Super-Resolution (x4)](https://cvlai.net/ntire/2023/) @ [CVPR 2023](https://cvpr2023.thecvf.com/)
 
+## Environment
+we used PyTorch version 1.13.1 cuda version 11.7
+
 ## How to test the our model?
 
 1. `git clone https://github.com/UESTCIPLAB/ARFT_for_NTIRE2023_Image_Super_Resolution.git`
